@@ -1,0 +1,52 @@
+name: solarfit_scout
+description: Solar feasibility validator using Google AI
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Google Services
+  google_maps_flutter: ^2.5.0
+  google_generative_ai: ^0.4.7
+  
+  # Firebase
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  cloud_firestore: ^6.1.2
+  firebase_storage: ^13.0.6
+  
+  # HTTP & Network
+  http: ^1.1.0
+  
+  # UI Components
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.9
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Utilities
+  intl: ^0.20.2
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.7
+  pdf: ^3.10.7
+  path_provider: ^2.1.2
+  share_plus: ^12.0.1
+  file_picker: ^8.0.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/

@@ -1,8 +1,8 @@
-# ☀️ SolarFit Scout
+# SOLARFIT ☀️
 
-**SolarFit Scout** is a cross-platform solar feasibility validator that helps homeowners instantly assess their solar potential using Google's most powerful developer and AI technologies.
+**SolarFit Scout** is the world’s first hardware-free, AI-powered solar validator that gives homeowners the 'Installer's Truth' in 30 seconds. It is a cross-platform app that helps homeowners instantly assess their solar potential using Google's most powerful developer and AI technologies.
 
-> Built for the MMU Hackathon — powered by Flutter + Google Cloud.
+> Built for the MMU Hackathon 2026 — powered by Flutter + Google Cloud.
 
 ---
 
@@ -46,7 +46,7 @@ solarfit_scout_mvp/
 ├── README.md                       # This file
 ├── PROJECT_OVERVIEW.md             # High-level product vision
 ├── DEMO_SCRIPT.md                  # Live demo walkthrough script
-└── pubspec.yaml                    # Dependencies
+├── pubspec.yaml                    # Dependencies
 ```
 
 ---
@@ -116,4 +116,3 @@ The Solar API returns deeply nested JSON with many optional fields. Solved using
 ---
 
 *SolarFit Scout MVP — MMU Hackathon 2026*
-
